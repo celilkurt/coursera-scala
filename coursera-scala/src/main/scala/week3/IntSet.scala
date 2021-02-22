@@ -13,11 +13,6 @@ object Main extends App {
 
 }
 
-
-object insets {
-  println("Welcome to the Scala worksheet")
-}
-
 abstract class IntSet {
   def incl(x: Int): IntSet
   def contains(x: Int): Boolean
